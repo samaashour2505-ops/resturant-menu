@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAZAQ</title>
+    <link rel="shortcut icon" href="./imgs/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-navbar py-3 fixed-top " data-bs-theme="dark">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+          <img
+            src="Images/icon.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="rounded-circle"
+          />
+          <div class="d-flex flex-column">
+            <span class="brand-title">MAZAQ</span>
+            <small class="brand-slogan">Good Food &bull; Better Mood</small>
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler border-0 text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+            <li class="nav-item">
+              <a
+                class="nav-link active position-relative py-2"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle position-relative py-2"
+                href="#chef-section"
+              >
+                Chefs
+              </a>
+              <ul class="dropdown-menu custom-dropdown border-0 shadow-lg">
+                <li><a class="dropdown-item" href="#chef-ahmed">Chef Ahmed Hassan</a></li>
+                <li><a class="dropdown-item" href="#chef-ali">Chef Ali Mohamed</a></li>
+                <li><a class="dropdown-item" href="#chef-youssef">Chef Youssef Ali</a></li>
+                <li><a class="dropdown-item" href="#chef-waleed">Chef Waleed Hassan</a></li>
+                <li><a class="dropdown-item" href="#chef-omar">Chef Omar Tarek</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link position-relative py-2" href="#menu">Menu</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link position-relative py-2" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link position-relative py-2" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-4 icon_right">
+            <a href="#" class="text-white fs-5 search-icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="#" class="text-white fs-5 position-relative cart-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+             
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="video-hero">
+      
+      <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="Images/8477405-hd_1920_1080_24fps (1).mp4" type="video/mp4" />
+      </video>
+
+      
+      <div class="hero-overlay"></div>
+
+      
+      <div class="hero-content">
+        <p class="hero-subtitle">A TASTE WORTH REMEMBERING</p>
+
+        <h1>
+          Where Every Bite
+          <span>Tells a Story</span>
+        </h1>
+
+        <p class="hero-description">
+          Discover a unique dining experience with our carefully crafted dishes,
+          made from the freshest ingredients and the finest recipes.
+        </p>
+
+        <a href="#menu" class="hero-button">
+          Explore Our Menu <span></span>
+        </a>
+      </div>
+
+     
+      <div class="scroll-indicator">
+        <span></span>
+        SCROLL TO DISCOVER
+      </div>
+    </section>
+
+     <!-- الشيفات-->
+
+    <div id="sec3">
+        
+        <div class="section-header" id="chef-section">
+            <div class="title-with-icon">
+                             <i class="fa-solid fa-kitchen-set"></i>
+
+                <h2>Our Chefs</h2>
+            </div>
+            <p>Talented chefs. Extraordinary dishes.</p>
+        </div>
+
+        <!-- الشيفات-->
+        <div class="chefs" >
+            <div class="chef" id="chef-ahmed">
+                <img src="Images/chef1.webp" alt="Chef Ahmed Hassan">
+                <h3>Chef Ahmed Hassan</h3>
+                <h4>Italian Cuisine</h4>
+                <div class="rating">★ 4.9</div>
+            </div>
+
+            <div class="chef" id="chef-ali">
+                <img src="Images/chef2.webp" alt="Chef Sara Mohamed">
+                <h3>Chef Ali Mohamed</h3>
+                <h4>Continental Cuisine</h4>
+                <div class="rating">★ 4.8</div>
+            </div>
+
+            <div class="chef" id="chef-youssef">
+                <img src="Images/chef6.avif" alt="Chef Youssef Ali">
+                <h3>Chef Youssef Ali</h3>
+                <h4>Grill & BBQ</h4>
+                <div class="rating">★ 4.7</div>
+            </div>
+
+            <div class="chef" id="chef-waleed">
+                <img src="Images/chef4.avif" alt="Chef Dina Khaled">
+                <h3>Chef Waleed Hassan</h3>
+                <h4>Mediterranean Cuisine</h4>
+                <div class="rating">★ 4.8</div>
+            </div>
+
+            <div class="chef" id="chef-omar">
+                <img src="Images/chef7.avif" alt="Chef Omar Tarek">
+                <h3>Chef Omar Tarek</h3>
+                <h4>Asian Cuisine</h4>
+                <div class="rating">★ 4.6</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-container" id="menu">
+
+        <!-- سكشن المنيو -->
+        <section class="menu-section">
+            <div class="menu-header">
+                <div class="menu-title-box">
+                    <h1><span>🍴</span> Our Menu</h1>
+                    <p>Delicious dishes, made with passion.</p>
+                </div>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search for a dish...">
+                </div>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="main">Main Dishes</button>
+                <button class="tab-btn" data-filter="salads">Salads</button>
+                <button class="tab-btn" data-filter="appetizers">Appetizers</button>
+                <button class="tab-btn" data-filter="desserts">Desserts</button>
+            </div>
+
+            <div class="dishes-grid" id="dishesGrid">
+                <!-- كرت 1 -->
+                <div class="dish-card" data-category="main" data-name="Grilled Salmon">
+                    <div class="dish-img-container">
+                        <img src="Images/0a764e265ca6b8acec7027cf191d6f99.jpg" alt="Grilled Salmon">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Grilled Salmon</div>
+                        <div class="dish-description">Fresh salmon with seasonal vegetables and lemon sauce.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$26.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كرت 2 -->
+                <div class="dish-card" data-category="main" data-name="Pasta Alfredo">
+                    <div class="dish-img-container">
+                        <img src="Images/bf3ed2bc90330ab135848677adf6e966.png" alt="Pasta Alfredo">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Pasta Alfredo</div>
+                        <div class="dish-description">Creamy sauce with mushrooms and parmesan.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$19.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كرت 3 -->
+                <div class="dish-card" data-category="main" data-name="Classic Burger">
+                    <div class="dish-img-container">
+                        <img src="Images/Beef-Burger1080x720px.jpg" alt="Classic Burger">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Classic Burger</div>
+                        <div class="dish-description">Beef patty, fresh veggies, cheese and special sauce.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$15.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كرت 4 -->
+                <div class="dish-card" data-category="salads" data-name="Caesar Salad">
+                    <div class="dish-img-container">
+                        <img src="Images/1439154341814.jpeg" alt="Caesar Salad">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Caesar Salad</div>
+                        <div class="dish-description">Crisp lettuce, grilled chicken, parmesan and croutons.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$13.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كرت 5 -->
+                <div class="dish-card" data-category="appetizers" data-name="Mozzarella Sticks">
+                    <div class="dish-img-container">
+                        <img src="Images/platter-fried-chicken-dipping-sauces-delicious-platter-crispy-fried-chicken-variety-dipping-sauces-281053000.webp" alt="Mozzarella Sticks">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Mozzarella Sticks</div>
+                        <div class="dish-description">Crispy outside, cheesy inside with marinara sauce.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$11.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كرت 6 -->
+                <div class="dish-card" data-category="desserts" data-name="Chocolate Lava Cake">
+                    <div class="dish-img-container">
+                        <img src="Images/R.jfif" alt="Chocolate Lava Cake">
+                        <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="dish-details">
+                        <div class="dish-title">Chocolate Lava Cake</div>
+                        <div class="dish-description">Rich chocolate cake with a warm center.</div>
+                        <div class="dish-footer">
+                            <span class="dish-price">$10.00</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- سكشن الطلب -->
+        <section class="order-section" id="order">
+            <div class="order-header">
+                <h2>Place Your Order</h2>
+                <p>Fresh food, just a few clicks away.</p>
+            </div>
+
+            <form class="order-form" id="orderForm">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number *</label>
+                    <input type="tel" placeholder="Your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address *</label>
+                    <input type="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Select Chef *</label>
+                        <select required>
+                            <option value="">Choose a chef</option>
+                            <option value="Chef Ahmed Hassan">Chef Ahmed Hassan</option>
+                            <option value="Chef Ali Mohamed">Chef Ali Mohamed</option>
+                            <option value="Chef Youssef Ali">Chef Youssef Ali</option>
+                            <option value="Chef Waleed Hassan">Chef Waleed Hassan</option>
+                            <option value="Chef Omar Tarek">Chef Omar Tarek</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Select Dish *</label>
+                        <select id="dishSelect" required>
+                            <option value="">Choose a dish</option>
+                            <option value="Grilled Salmon">Grilled Salmon</option>
+                            <option value="Pasta Alfredo">Pasta Alfredo</option>
+                            <option value="Classic Burger">Classic Burger</option>
+                            <option value="Caesar Salad">Caesar Salad</option>
+                            <option value="Mozzarella Sticks">Mozzarella Sticks</option>
+                            <option value="Chocolate Lava Cake">Chocolate Lava Cake</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Quantity *</label>
+                        <div class="quantity-control">
+                            <button type="button" id="decreaseQty">-</button>
+                            <span id="qtyVal">1</span>
+                            <button type="button" id="increaseQty">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group flex-grow-group">
+                    <label>Special Requests (Optional)</label>
+                    <textarea placeholder="Any special requests? (e.g. less spicy, no onions...)"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn"><i class="fa-solid fa-paper-plane"></i> Submit Order</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- ===== Chef's Special (زرار About بيوصل هنا) ===== -->
+    <section class="special-section" id="about">
+        <img class="special-img" src="Images/beef-tenderloin.jpg" alt="Beef Tenderloin">
+
+        <div class="special-content">
+            <p class="special-label"><i class="fa-solid fa-crown"></i> CHEF'S SPECIAL</p>
+            <h2>Beef Tenderloin</h2>
+            <p class="special-desc">Juicy, grilled to perfection, served with roasted vegetables and herb sauce.</p>
+            <div class="special-action">
+                <span class="special-price">$42.00</span>
+                <a href="#order" class="special-btn">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <img class="special-leaf" src="Images/leaf.png" alt="">
+    </section>
+
+    <!-- المميزات -->
+    <section class="features">
+        <div class="feature">
+            <span class="feature-icon"><i class="fa-solid fa-leaf"></i></span>
+            <div>
+                <h3>Fresh Ingredients</h3>
+                <p>Only the best, always.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <span class="feature-icon"><i class="fa-solid fa-truck-fast"></i></span>
+            <div>
+                <h3>Fast Delivery</h3>
+                <p>Hot &amp; fresh to your door.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+            <div>
+                <h3>Secure Payment</h3>
+                <p>Your data is safe with us.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <span class="feature-icon"><i class="fa-solid fa-kitchen-set"></i></span>
+            <div>
+                <h3>Top Rated Chefs</h3>
+                <p>World-class cooking talent.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <a class="contact-brand" href="#">
+            <img src="Images/icon.png" alt="Logo" width="40" height="40" class="rounded-circle">
+            <div class="d-flex flex-column">
+                <span class="brand-title">MAZAQ</span>
+                <small class="brand-slogan">Good Food &bull; Better Mood</small>
+            </div>
+        </a>
+
+        <div class="contact-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+        <div class="contact-thanks">
+            <p>Thank you for being part of our journey</p>
+            <span class="contact-line"><i class="fa-solid fa-heart"></i></span>
+        </div>
+    </section>
+
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <script src="Javascript/script.js"></script>
+  </body>
+</html>
